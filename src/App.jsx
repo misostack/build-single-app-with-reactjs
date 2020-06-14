@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.scss";
-import { default as routes } from "./App-routes";
+import AppRoutes from "./App-routes";
 const env = process.env;
 
 function App() {
-  return routes;
+  return <AppRoutes />;
 }
 
 export default App;
